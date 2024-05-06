@@ -4,8 +4,9 @@ The first version of this repository contains 10,021 popular English words (mixe
 
 The words come in a few available formats:
 
+- `words.csv` - a list of words in CSV format following `word,length,uniqueCharacters` structure
+- `words.json` - a list of words in JSON format following `{word: string, length: number, uniqueCharacters: number}` schema
 - `words.txt` - `\r\n` delimited list of words
-- `words.json` - list of words in JSON format following `{word: string}` schema
 
 The list contains:
 
